@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+<!-- Meine Tui -->
+
+	<string name="LOGIN_WELCOME_TITLE">Willkommen</string>
+	<string name="LOGIN_WELCOME_PAGE_ERROR">Leider erkennen wir nicht an Ihre Login-Daten. Bitte versuchen Sie es erneut, sich hier registrieren oder überprüfen Sie Ihre E-Mail an Ihre E-Mail-Adresse bestätigen</string>
+
+	<string name="LOGIN_WELCOME_USERNAME_DESCRIPTION">Benutzername oder E-Mail:</string>
+	<string name="LOGIN_WELCOME_USERNAME_TIP">Tipp: Das Passwort, das Sie nicht mit dem Benutzername / E-Mail. Bitte versuchen Sie es erneut</string>
+		
+	<string name="LOGIN_WELCOME_PASSWORD_DESCRIPTION">Kennwort:</string>	
+	<string name="LOGIN_WELCOME_PASSWORD_TIP">Tipp: Das Passwort, das Sie nicht mit dem Benutzername / E-Mail. Bitte versuchen Sie es erneut.</string>
+
+	<string name="LOGIN_WELCOME_LOGIN_BUTTON_TEXT">Anmelden</string>
+	<string name="LOGIN_WELCOME_FORGOT_BUTTON_TEXT">Passwort vergessen</string>
+
+	<string name="LOGIN_WELCOME_EMAIL_HELP">Mail Hilfe</string>
+	
+	
+		
+</resources>

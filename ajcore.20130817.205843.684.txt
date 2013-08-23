@@ -1,0 +1,169 @@
+---- AspectJ Properties ---
+AspectJ Compiler DEVELOPMENT built on Thursday Sep 20, 2012 at 20:28:11 GMT
+---- Dump Properties ---
+Dump file: ajcore.20130817.205843.684.txt
+Dump reason: org.aspectj.weaver.BCException
+Dump on exception: true
+Dump at exit condition: abort
+---- Exception Information ---
+---- System Properties ---
+java.runtime.name=Java(TM) SE Runtime Environment
+sun.boot.library.path=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries
+java.vm.version=20.45-b01-451
+awt.nativeDoubleBuffering=true
+gopherProxySet=false
+mrj.build=11M4406
+java.vm.vendor=Apple Inc.
+java.vendor.url=http://www.apple.com/
+path.separator=:
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+sun.java.launcher=SUN_STANDARD
+user.country=US
+sun.os.patch.level=unknown
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/mauricemorgan/Documents/Titanium_Studio_Workspace/TiFramework
+java.runtime.version=1.6.0_45-b06-451-11M4406
+java.awt.graphicsenv=apple.awt.CGraphicsEnvironment
+java.endorsed.dirs=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed
+os.arch=x86_64
+java.io.tmpdir=/var/folders/32/qn1vy83n0dj2h__dtnpcpg6w0000gp/T/
+line.separator=
+
+java.vm.specification.vendor=Sun Microsystems Inc.
+os.name=Mac OS X
+sun.jnu.encoding=MacRoman
+java.library.path=.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.specification.name=Java Platform API Specification
+java.class.version=50.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+os.version=10.8.4
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+user.home=/Users/mauricemorgan
+user.timezone=Europe/London
+java.awt.printerjob=apple.awt.CPrinterJob
+file.encoding=MacRoman
+java.specification.version=1.6
+java.class.path=/Users/mauricemorgan/Documents/sdk/platforms/android-10/android.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-filesystem.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-android.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-calendar.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/thirdparty.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-ui.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-accelerometer.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-contacts.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-locale.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/ti-commons-codec-1.3.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/jaxen-1.1.1.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-media.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/kroll-v8.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-gesture.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-map.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-utils.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/android-support-v4.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-app.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-network.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-geolocation.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-database.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-analytics.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/kroll-common.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-platform.jar:/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-xml.jar:/Users/mauricemorgan/Documents/Titanium_Studio_Workspace/TiFramework/plugins/com.soasta.touchtest.android/lib/aspectjrt.jar:/Users/mauricemorgan/Documents/Titanium_Studio_Workspace/TiFramework/plugins/com.soasta.touchtest.android/lib/aspectjtools.jar:/Users/mauricemorgan/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.0.4.touchtest/crittercism.jar:/Users/mauricemorgan/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.0.4.touchtest/lib/crittercism_crashonly.jar
+user.name=mauricemorgan
+java.vm.specification.version=1.0
+sun.java.command=org.aspectj.tools.ajc.Main -Xlint:ignore -inpath /Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar.bak -aspectpath /Users/mauricemorgan/Documents/Titanium_Studio_Workspace/TiFramework/plugins/com.soasta.touchtest.android/lib/TouchTestDriver.jar:/Users/mauricemorgan/Documents/Titanium_Studio_Workspace/TiFramework/plugins/com.soasta.touchtest.android/lib/TouchTestDriver-Titanium.jar -outjar /Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar
+java.home=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+sun.arch.data.model=64
+user.language=en
+java.specification.vendor=Sun Microsystems Inc.
+awt.toolkit=apple.awt.CToolkit
+java.vm.info=mixed mode
+java.version=1.6.0_45
+java.ext.dirs=/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext
+sun.boot.class.path=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+java.vendor=Apple Inc.
+file.separator=/
+java.vendor.url.bug=http://bugreport.apple.com/
+sun.io.unicode.encoding=UnicodeLittle
+sun.cpu.endian=little
+mrj.version=1070.1.6.0_45-451
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.cpu.isalist=
+---- Command Line ---
+-Xlint:ignore
+-inpath
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar.bak
+-aspectpath
+/Users/mauricemorgan/Documents/Titanium_Studio_Workspace/TiFramework/plugins/com.soasta.touchtest.android/lib/TouchTestDriver.jar:/Users/mauricemorgan/Documents/Titanium_Studio_Workspace/TiFramework/plugins/com.soasta.touchtest.android/lib/TouchTestDriver-Titanium.jar
+-outjar
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar
+---- Full Classpath ---
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar(missing)
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar(31107732 bytes)
+/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar(missing)
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar(1026072 bytes)
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar(missing)
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar(missing)
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar(325748 bytes)
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar(88238 bytes)
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar(3516599 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar.bak(3570344 bytes)
+/Users/mauricemorgan/Documents/Titanium_Studio_Workspace/TiFramework/plugins/com.soasta.touchtest.android/lib/TouchTestDriver.jar(1071931 bytes)
+/Users/mauricemorgan/Documents/Titanium_Studio_Workspace/TiFramework/plugins/com.soasta.touchtest.android/lib/TouchTestDriver-Titanium.jar(4092 bytes)
+/System/Library/Java/Extensions/AppleScriptEngine.jar(6474 bytes)
+/System/Library/Java/Extensions/dns_sd.jar(17780 bytes)
+/System/Library/Java/Extensions/j3daudio.jar(1223497 bytes)
+/System/Library/Java/Extensions/j3dcore.jar(1157353 bytes)
+/System/Library/Java/Extensions/j3dutils.jar(685303 bytes)
+/System/Library/Java/Extensions/jai_codec.jar(275498 bytes)
+/System/Library/Java/Extensions/jai_core.jar(1544549 bytes)
+/System/Library/Java/Extensions/mlibwrapper_jai.jar(41239 bytes)
+/System/Library/Java/Extensions/MRJToolkit.jar(12849 bytes)
+/System/Library/Java/Extensions/QTJava.zip(938715 bytes)
+/System/Library/Java/Extensions/vecmath.jar(127640 bytes)
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar(48735 bytes)
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar(8227 bytes)
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar(469502 bytes)
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar(170315 bytes)
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar(232338 bytes)
+/Users/mauricemorgan/Documents/sdk/platforms/android-10/android.jar(9924665 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar(256 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-filesystem.jar(5687 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-android.jar(58608 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-calendar.jar(20466 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/thirdparty.jar(231219 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-ui.jar(0 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-accelerometer.jar(3109 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-contacts.jar(27413 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-locale.jar(3859 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/ti-commons-codec-1.3.jar(10605 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/jaxen-1.1.1.jar(211164 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-media.jar(83576 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/kroll-v8.jar(11085 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-gesture.jar(6059 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-map.jar(41702 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-utils.jar(4517 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/android-support-v4.jar(349252 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-app.jar(9595 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-network.jar(59659 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-geolocation.jar(31144 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-database.jar(12005 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-analytics.jar(3870 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/kroll-common.jar(44258 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-platform.jar(10152 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-xml.jar(28174 bytes)
+/Users/mauricemorgan/Documents/Titanium_Studio_Workspace/TiFramework/plugins/com.soasta.touchtest.android/lib/aspectjrt.jar(116228 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.0.4.touchtest/crittercism.jar(6742 bytes)
+/Users/mauricemorgan/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.0.4.touchtest/lib/crittercism_crashonly.jar(59812 bytes)
+---- Compiler Messages ---
+abort ABORT -- (BCException) malformed class file
+when processing reweavable state com.soasta.android.touchtest.TouchTestDriver
+when processing reweavable state 
+when weaving 
+when batch building BuildConfig[null] #Files=0 AopXmls=#0
+
+malformed class file
+when processing reweavable state com.soasta.android.touchtest.TouchTestDriver
+when processing reweavable state 
+when weaving 
+when batch building BuildConfig[null] #Files=0 AopXmls=#0
+
+org.aspectj.weaver.BCException: malformed class file
+when processing reweavable state com.soasta.android.touchtest.TouchTestDriver
+when processing reweavable state 
+when weaving 
+when batch building BuildConfig[null] #Files=0 AopXmls=#0
+
+	at org.aspectj.weaver.bcel.Utility.makeJavaClass(Utility.java:469)
+	at org.aspectj.weaver.bcel.BcelWeaver.processReweavableStateIfPresent(BcelWeaver.java:1386)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1096)
+	at org.aspectj.ajdt.internal.compiler.AjPipeliningCompilerAdapter.weaveQueuedEntries(AjPipeliningCompilerAdapter.java:514)
+	at org.aspectj.ajdt.internal.compiler.AjPipeliningCompilerAdapter.afterCompiling(AjPipeliningCompilerAdapter.java:375)
+	at org.aspectj.ajdt.internal.compiler.CompilerAdapter.ajc$afterReturning$org_aspectj_ajdt_internal_compiler_CompilerAdapter$2$f9cc9ca0(CompilerAdapter.aj:73)
+	at org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:550)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.performCompilation(AjBuildManager.java:1028)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.performBuild(AjBuildManager.java:272)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild(AjBuildManager.java:185)
+	at org.aspectj.ajdt.ajc.AjdtCommand.doCommand(AjdtCommand.java:112)
+	at org.aspectj.ajdt.ajc.AjdtCommand.runCommand(AjdtCommand.java:60)
+	at org.aspectj.tools.ajc.Main.run(Main.java:371)
+	at org.aspectj.tools.ajc.Main.runMain(Main.java:248)
+	at org.aspectj.tools.ajc.Main.main(Main.java:84)
+

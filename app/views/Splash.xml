@@ -1,0 +1,6 @@
+<Alloy>
+	 <Label backgroundColor="white" id="refresh">refresh</Label>
+	<View class="container" width="Ti.UI.FILL" height='Ti.UI.FILL' layout="vertical">
+	
+	</View>
+</Alloy>

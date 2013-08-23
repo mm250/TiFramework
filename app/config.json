@@ -1,0 +1,19 @@
+{
+	"global" : {
+		"plugConfig" : "morcode/ioc/config/plug-config",
+		
+		"endPoint" : "localhost:3000"
+	}, 
+	
+	"env:development" : {},
+	 
+	"env:test" : {}, 
+	
+	"env:production" : {}, 
+	
+	"os:ios" : {}, 
+	
+	"os:android" : {}, 
+	
+	"dependencies" : {}
+}

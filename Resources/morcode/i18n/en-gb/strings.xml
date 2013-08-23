@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	
+<!-- Meine Tui -->
+
+	<string name="LOGIN_WELCOME_TITLE">Welcome</string>
+	<string name="LOGIN_WELCOME_PAGE_ERROR">Sorry we don't recognise your login details. Please try again, register here or check your email to verify your email address</string>
+
+	<string name="LOGIN_WELCOME_USERNAME_DESCRIPTION">Username or email:</string>
+	<string name="LOGIN_WELCOME_USERNAME_TIP">Tip: This should be the email address or username you signed up with.</string>
+				
+	<string name="LOGIN_WELCOME_PASSWORD_DESCRIPTION">Password:</string>
+	<string name="LOGIN_WELCOME_PASSWORD_TIP">Tip: The password you provided does not match the username/email. Please try again.</string>
+
+
+	<string name="LOGIN_WELCOME_LOGIN_BUTTON_TEXT">Log in</string>
+	<string name="LOGIN_WELCOME_FORGOT_BUTTON_TEXT">Forgot password</string>>
+	<string name="LOGIN_WELCOME_EMAIL_HELP">Email help</string>
+	
+
+
+</resources>
