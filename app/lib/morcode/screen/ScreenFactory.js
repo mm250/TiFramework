@@ -5,10 +5,10 @@ var _ = require("alloy/underscore");
 
 // ------------------------------------------ class
 
-var IScreenFactory = Declare({
+var ScreenFactory = Declare({
 	
 	getScreen: function(screen){
 		var iScreenFactory = this;
 		Alloy.createController(screen); 
 	}
-})
+});

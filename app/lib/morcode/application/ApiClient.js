@@ -1,5 +1,5 @@
 // ------------------------------------------ imports
-
+var Alloy = require('alloy');
 var Declare = require('morcode/base/Declare');
 var _ = require("alloy/underscore");
 var when = require("when/when");
@@ -13,12 +13,19 @@ var ApiClient = Declare({
 	timeout : 14000,
 	
 	read: function(api, collection, ref, severity, onload, onerror){
+		// Method: read
+		//		requests, and sets data from api calls
 		var apiClient = this;
+		
 		severity = severity || true;
 		apiClient.request(api, "GET", null, 
 			function(){
-				var response = JSON.parse(apiClient.responseText);
-				if (onload) onload(response);
+				var HTTPClient = this;
+				var response = HTTPClient.responseText;
+				if (response){
+					JSONResponse = JSON.parse(response);
+				}
+				if (onload) onload(JSONResponse);
 			}, 
 			function(ex){
 				(onerror) ? onerror() : Alloy.Globals.Events.trigger("Application.onError", [ex, severity]);
@@ -26,9 +33,11 @@ var ApiClient = Declare({
 	},
 	
 	request : function(api, method, params, onload, onerror) {
+		// Method: request
+		//		requests api GET or POST calls.
 		var apiClient = this;
 		
-		var requestAPI = [apiClient.endpoint];
+		var requestAPI = [apiClient.endpoint + "/" + api];
 		var body = params; 
 		
 		if (!api || api.length === 0) throw "No api location has been specified";
@@ -42,15 +51,13 @@ var ApiClient = Declare({
 		}); 
 		
 		if (params && (method === "GET")){
-			requestAPI.push(api + "?" + params);
+			requestAPI.push("?" + params);
 			body = undefined;
 		}
-
+		
 		HTTPClient.open(method, requestAPI.join("/"));
 		HTTPClient.send(body);
-		
-		console.log(requestAPI.join("/"))
 	}
-})
+});
 
 module.exports = ApiClient; 

@@ -1,40 +1,5 @@
 <Alloy>
 	<Window id="app">
-		<View width="Ti.UI.FILL" height="Ti.UI.FILL" layout="vertical">
-			<View class="container" width="Ti.UI.FILL" height="100" layout="vertical"  backgroundColor="red"/>
-   
-		<ScrollView width="Ti.UI.FILL" height="Ti.UI.FILL" accessibilityLabel="page-scroller" showVerticalScrollIndicator="true" scrollType="vertical" layout="vertical">
-		
-			<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
-			<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
-			<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
-			<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
-			<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
-			<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
-			<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
-			<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
-			<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
-			<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
-		</ScrollView>
-		</View>
-		
-		<View top="0" left="100" width="Ti.UI.FILL" height="Ti.UI.FILL" layout="vertical">
-			<View class="container" width="Ti.UI.FILL" height="100" layout="vertical"  backgroundColor="red">
-    			<Label accessibilityLabel="login title" backgroundColor="red">Welcomed</Label>
-    			<Label accessibilityLabel="login title" backgroundColor="green">Welcjjomcccedjdjdj</Label>
-			</View>
-			<ScrollView accessibilityLabel="page-scroller" showVerticalScrollIndicator="true" scrollType="vertical">
-				<View class="container" top="0" left="0" width="Ti.UI.FILL" height="0" backgroundColor="blue" layout="vertical">
-					<Label accessibilityLabel="login title" backgroundColor="green" height="100">content2</Label>
-					<Label accessibilityLabel="login title" backgroundColor="green" height="100">content1</Label>
-					<Label accessibilityLabel="login title" backgroundColor="green" height="100">content1</Label>
-					<Label accessibilityLabel="login title" backgroundColor="green" height="100">content1</Label>
-					<Label accessibilityLabel="login title" backgroundColor="green" height="100">content1</Label>
-				</View>
-				<View class="container" top="0" left="0" width="Ti.UI.FILL" height="Ti.UI.FILL" backgroundColor="yellow" layout="vertical">
-					<Label accessibilityLabel="login title" backgroundColor="green" height="100">content2</Label>
-				</View>
-			</ScrollView>
-		</View>
+
 	</Window>
 </Alloy>

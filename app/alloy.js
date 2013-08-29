@@ -32,3 +32,11 @@ Alloy.Globals.deviceSize = {
 }; 
 
 Alloy.Globals.Events = _.clone(Backbone.Events);
+
+Alloy.Globals.addEventListener = function(type, context, selector, ftn){
+	context.addEventListener(type, function(e){
+		if (selector && e.source[selector]){
+			ftn(e.source, e);
+		}
+	});
+};

@@ -1,0 +1,28 @@
+<Alloy>
+	<View id="hamburgerTmpl">
+		<View class="menu">
+			<View class="menu-toolbar" />
+			<ScrollView class="menu-scrollview">
+				<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
+				<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
+				<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
+				<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
+				<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
+				<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
+				<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
+				<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
+				<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
+				<Label accessibilityLabel="login title" backgroundColor="green" width="Ti.UI.FILL" height="100">content2</Label>
+			</ScrollView>
+		</View>
+		<View class="main-window">
+			<ScrollView class="main-scrollview">
+				<View class="main-toolbar">
+					<View id="menu_button" action="menu" width="20" height="20" backgroundColor="#ffff" top="15" left="15" borderColor="red"/>
+					<Label width="Ti.UI.FILL" height="50" borderColor="yellow" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER">content7</Label>
+				</View>
+				<View class="container" top="0" left="0" width="Ti.UI.FILL" height="Ti.UI.FILL" backgroundColor="blue" layout="vertical"></View>
+			</ScrollView>
+		</View>
+	</View>
+</Alloy>

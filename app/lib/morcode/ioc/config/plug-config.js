@@ -26,20 +26,41 @@ module.exports = {
 		
 		api: "application/settings",
 		
-		ref: "settings",
+		apiName: "settings",
 		
 		startuptasks: [{
-			plugType: "morcode/application/startuptasks/ApplicationApiFetch",
-			plugScope: "object"	
-		},{
 			plugType: "morcode/application/startuptasks/ApplicationDbFetch",
 			plugScope: "object"	
+		},{
+			plugType: "morcode/application/startuptasks/ApplicationApiFetch",
+			plugScope: "object"	
 		}],
+		
+		screenManager: {
+			plugType: "morcode/screen/ScreenManager",
+			appTemplateName: "HamburgerTmpl",
+			plugScope: "singleton",
+			screenFactory: "{Alloy.createController}"
+		},
 		
 		collectionsFactory: "{Alloy.Collections.instance}",
 		
 		plugScope: "singleton"	
 	},
+	
+	HamburgerTmpl:{
+		
+		plugType: "morcode/appTemplate/BaseTmpl",
+		
+		plugScope: "singleton"
+	},
+	
+	
+	
+	
+	
+	
+	
 	
 	AppScreenManager : {
 		// class

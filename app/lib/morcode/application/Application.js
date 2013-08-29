@@ -3,6 +3,7 @@
 var Declare = require('morcode/base/Declare');
 var _ = require("alloy/underscore");
 var pipeline = require('when/pipeline');
+var Alloy = require("alloy");
 
 // ------------------------------------------ class
 
@@ -14,7 +15,11 @@ var Application = Declare({
 	
 	api: null,
 	
+	apiName: null,
+	
 	startuptasks: [],
+	
+	screenManager: null,
 	
 	constructor: function(){
 		var application = this;
@@ -34,7 +39,8 @@ var Application = Declare({
 	
 	onError: function(ex){
 		var application = this;
-		alert(ex)
+		console.log(ex.error);
+		alert(JSON.stringify(ex));
 	},
 	
 	applicationStartUp: function(){
@@ -43,18 +49,24 @@ var Application = Declare({
 		var application = this;
 		
 		pipeline(application.startuptasks, application).then(function() {
-			application.startApp(); 
+			try{	
+				application.startApp(); 
+			} catch (ex){
+				console.log(ex);
+				//Alloy.Globals.Events.trigger("Application.onError", [ex]);
+			}
 		}, function(ex){
 			Alloy.Globals.Events.trigger("Application.onError", [ex]);
-		})
+		});
 	},
 	
 	startApp: function(){
 		// Method: startApp.
 		//		opens application window.
 		var application = this;
+		application.screenManager.init(application.$);
 		application.$.app.open();
 	}
-})
+});
 
 module.exports = Application;

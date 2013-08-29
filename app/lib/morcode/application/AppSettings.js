@@ -9,6 +9,6 @@ var AppSettings = Declare({
 	
 	apiVersion: null
 	
-})
+});
 
 module.exports = AppSettings; 

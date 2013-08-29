@@ -12,7 +12,11 @@ function makeObject(key, val) {
 
 var namespace = require("morcode/base/Namespace");
 
+var _ = require("alloy/underscore");
+
 var ignoredFields = [ "plugScope", "plugAutoset" ];
+
+var Alloy = require("alloy");
 
 var global = this;
 

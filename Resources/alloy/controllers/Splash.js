@@ -13,14 +13,14 @@ function Controller() {
         id: "refresh"
     });
     $.__views.refresh && $.addTopLevelView($.__views.refresh);
-    $.__views.__alloyId26 = Ti.UI.createView({
+    $.__views.__alloyId0 = Ti.UI.createView({
         backgroundColor: "white",
         layout: "vertical",
         width: Ti.UI.FILL,
         height: Ti.UI.FILL,
-        id: "__alloyId26"
+        id: "__alloyId0"
     });
-    $.__views.__alloyId26 && $.addTopLevelView($.__views.__alloyId26);
+    $.__views.__alloyId0 && $.addTopLevelView($.__views.__alloyId0);
     exports.destroy = function() {};
     _.extend($, $.__views);
     var parser = require("morcode/alloyParser/Parser");

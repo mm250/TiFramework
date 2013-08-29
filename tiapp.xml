@@ -113,4 +113,4 @@
     </ios>
     <property name="com-soasta-touchtest-ios-appId" type="string">68277</property>
     <property name="com-soasta-touchtest-android-appId" type="string">68278</property>
-<property name="ti.deploytype">development</property></ti:app>
+<property name="ti.deploytype">test</property></ti:app>
